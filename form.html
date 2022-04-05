@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Form</title>
+   <style>
+      .color{
+         color: orange;
+      }
+      #id{
+         color: blue;
+      }
+   </style>
+    </head>
+    <body>
+       <form action="submit.html" method="post">
+         <header style="padding: 200px">
+            <img src="logon.jpeg" height="100px" width="100px">
+         </header>
+         <aside style="padding: 200px;width: 200px;float: right">
+         <fieldset>
+         	<legend>Registration form</legend>
+         	
+            <label>first name</label><input type="text" name="first name" disabled><br><br>
+            <label>last name</label><input type="text" name="last name" required><br><br>
+            <label>e mail</label><input type="email" name="email"><br><br>
+            <label>phone no</label><input type="tel" name="contact number" placeholder="123-123-1234">
+            <label>password</label><input type="password" name="password"><br><br>
+            <label>Gender</label>
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female">female
+            <input type="radio" name="gender" value="other">other
+            
+            <br><br>
+            <label>Description</label><textarea></textarea>
+            <input type="submit" name="submit">
+         </fieldset>
+      </aside>
+       </form>
+    </body>
+
+</html>
